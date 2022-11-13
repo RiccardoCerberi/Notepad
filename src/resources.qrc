@@ -1,6 +1,7 @@
 <!DOCTYPE RCC><RCC version="1.0">
 <qresource>
 	<file>resources/icons/about.png</file>
+	<file>resources/icons/save.png</file>
 	<file>resources/icons/app.png</file>
 	<file>resources/icons/redo.png</file>
 	<file>resources/icons/undo.png</file>

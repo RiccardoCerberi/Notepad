@@ -1,4 +1,7 @@
 CMakeFiles
 cmake-build-debug
 bin
+build
 .idea
+compile_commands.json
+

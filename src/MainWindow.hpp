@@ -6,8 +6,8 @@
 #include<QAction>
 #include<QToolBar>
 #include<QStatusBar>
-#include<QTabBar>
-
+#include<QTabWidget>
+#include<QMessageBox>
 
 /*
   This is the header used to set up the GUI of Notepad.
@@ -45,11 +45,13 @@ private:
 
   QToolBar* _toolBar;
   
-  QTabBar* _tabBar;
+  QTabWidget* _tabs;
 
   QStatusBar* _statusBar; // it's private because it cannot be modified by the user
 public:
   MainWindow();
-public slots:
-
+// Implementation of our functions
+public slots: 
+  void aboutActionTriggered(); 
+  void aboutQtActionTriggered();
 };
