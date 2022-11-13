@@ -1,4 +1,5 @@
 CMakeFiles
+.cache
 cmake-build-debug
 bin
 build
