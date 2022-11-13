@@ -3,6 +3,7 @@ CMakeFiles
 cmake-build-debug
 bin
 build
+# .idea is the directory that contains Clion files 
 .idea
 compile_commands.json
 
