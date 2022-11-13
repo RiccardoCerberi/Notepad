@@ -1,7 +1,9 @@
-file( GLOB sources *.h *.cpp *.qrc)
+file( GLOB sources *.h *.hpp *.cpp *.qrc)
 
 #resource compiler to add audio and icons into the executable
+set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC ON)
 
 # creating the executable
 add_executable(notepad ${sources})

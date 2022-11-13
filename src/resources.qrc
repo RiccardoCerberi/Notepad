@@ -1,5 +1,11 @@
 <!DOCTYPE RCC><RCC version="1.0">
 <qresource>
-	<file>resources/icons/close.png</file>
+	<file>resources/icons/about.png</file>
+	<file>resources/icons/app.png</file>
+	<file>resources/icons/do.png</file>
+	<file>resources/icons/undo.png</file>
+	<file>resources/icons/new.png</file>
+	<file>resources/icons/open.png</file>
+	<file>resources/icons/print.png</file>
 </qresource>
 </RCC>

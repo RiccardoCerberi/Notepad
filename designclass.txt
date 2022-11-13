@@ -1,0 +1,6 @@
+Depencies:
+- Handling main windows (GUI) -> MainWindow
+- Handling Document (saving the document modification) -> Document
+  - Saving Document
+- Saving current session. When the software is closed without saving, all the changes must remain -> Session
+- Spell checker -> Corrector
