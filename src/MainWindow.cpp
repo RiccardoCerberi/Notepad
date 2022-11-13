@@ -31,7 +31,23 @@ MainWindow::MainWindow() : QWidget(0) {
 	_fileMenu->addAction(_exitAction);
 
   _editMenu = new QMenu("Edit");
+	// NOTE: redo and undo are platform dependent
+	// redo
+	_redoAction = new QAction(QIcon(":resources/icons/redo.png"), "Redo", _fileMenu);
+	_redoAction->setShortcut(QKeySequence(Qt::CTRL + Qt::SHIFT + Qt::Key_Z));
+	_fileMenu->addAction(_redoAction);
+	// undo
+	_undoAction = new QAction(QIcon(":resources/icons/undo.png"), "Undo", _fileMenu);
+	_undoAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Z));
+	_fileMenu->addAction(_undoAction);
+
   _aboutMenu = new QMenu("?");
+	_aboutAction = new QAction(QIcon(":resources/icons/about.png"), "About Notepad", _fileMenu);
+	_fileMenu->addAction(_aboutAction);
+	_aboutQtAction = new QAction( "About Qt", _fileMenu);
+	_fileMenu->addAction(_aboutQtAction);
+
+
   _menuBar->addMenu(_fileMenu);
   _menuBar->addMenu(_editMenu);
   _menuBar->addMenu(_aboutMenu);

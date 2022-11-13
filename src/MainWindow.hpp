@@ -36,7 +36,7 @@ private:
   QMenu* _editMenu;
 
   QAction* _redoAction; // redo the last action
-  QAction _undoAction; // go back to the preovious action
+  QAction* _undoAction; // go back to the preovious action
 
 
   QMenu* _aboutMenu;
