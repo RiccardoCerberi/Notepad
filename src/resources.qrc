@@ -7,5 +7,6 @@
 	<file>resources/icons/new.png</file>
 	<file>resources/icons/open.png</file>
 	<file>resources/icons/print.png</file>
+	<file>resources/icons/exit.png</file>
 </qresource>
 </RCC>

@@ -11,6 +11,7 @@
 
 /*
   This is the header used to set up the GUI of Notepad.
+	NOTE: every member has a final name that is strictly related to the class which it belongs to
 */
 
 class MainWindow : public QWidget {
